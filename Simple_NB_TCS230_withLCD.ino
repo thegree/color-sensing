@@ -60,10 +60,9 @@ void readSensor()
       lcd.print(",");
       lcd.print(rgb.value[TCS230_RGB_G]);
       lcd.print(",");
-      //lcd.setCursor(0,1);
       lcd.print(rgb.value[TCS230_RGB_B]);
-      //lcd.print("]");
-      delay ( 1000 );
+      
+       delay ( 1000 );
       
       waiting = false;
     }
